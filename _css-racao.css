@@ -51,11 +51,26 @@ figure.foto-legenda {
 	nav#menu li {
 		display: inline-block;
 		background-color: #a5370e;
-		color: white;
+		color: black;
 		padding: 10px;
 		margin: 2px;
 		border-radius: 10px;
 	}
+
+	nav#menu li:hover {
+			background-color: RGB(245, 235, 220);
+		}
+
 	nav#menu h1 {
 		display: none;
 	}
+
+	nav#menu a {
+			color: #000000;
+			text-decoration: none;
+		}
+
+	nav#menu a:hover {
+		color: #a5370e;
+	}	
+	
