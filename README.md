@@ -1,0 +1,3 @@
+Projeto em andamento...
+
+Estou fazendo uma landing page para o pet shop do meu pai com os conhecimentos que adquiri nos cursos de HTML e CSS do Curso em Vídeo.
