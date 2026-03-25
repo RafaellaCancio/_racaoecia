@@ -2,26 +2,34 @@
 
 body {
   background-color: #e8820e;
+  margin: auto;
 }
+
 p {
   text-align: justify;
 }
 
+p#contato {
+  text-align: center;
+  color: blue;
+}
+
 /*Formatação da header*/
 header#cabecalho img#icone {
-  position: absolute;
-  left: 1050px;
-  top: 40px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px black;
 }
 
 header#cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-bottom: 1px #6d6d6d solid;
-  height: 120px;
   box-shadow: 1px 1px 4px black;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #e4b47d;
+  margin: 20px;
+  padding: 20px;
 }
 
 header#cabecalho h1 {
@@ -29,8 +37,7 @@ header#cabecalho h1 {
   font-size: 35pt;
   color: #a5370e;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
 header#cabecalho h2 {
@@ -39,8 +46,7 @@ header#cabecalho h2 {
   font-style: normal;
   color: #a5370e;
   font-size: 15pt;
-  padding: 5px;
-  margin-top: -10px;
+  margin: 0;
 }
 /*Formatação de imagens com legenda*/
 figure.foto-legenda {
@@ -77,11 +83,10 @@ nav#menu {
   display: block;
 }
 nav#menu ul {
+  margin-top: -100px;
   list-style: none;
   text-transform: uppercase;
-  position: absolute;
-  top: -5px;
-  left: 500px;
+  padding: 0px;
 }
 
 nav#menu li {
